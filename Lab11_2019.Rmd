@@ -25,7 +25,7 @@ movies <- read_csv('http://math.montana.edu/ahoegh/teaching/stat446/movies_earni
 movies <- movies %>% mutate(revenue_millions = revenue/1000000, budget_millions = budget / 1000000)
 ```
 
-A SRS of 250 movies has been taken for you from the dataset. Using the ratio estimator 
+A SRS of 100 movies has been taken for you from the dataset. Using the ratio estimator 
 
 ```{r}
 movies_sample <- movies %>% sample_n(100)
